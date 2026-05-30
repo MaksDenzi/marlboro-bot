@@ -1,0 +1,63 @@
+{
+  "items": [
+    {"id": 1, "name": "Деревянный меч", "emoji": "🗡️", "type": "weapon", "rarity": "common", "price": 150, "damage": 5, "description": "Простое деревянное оружие"},
+    {"id": 2, "name": "Железный меч", "emoji": "⚔️", "type": "weapon", "rarity": "uncommon", "price": 500, "damage": 15, "description": "Надёжный железный клинок"},
+    {"id": 3, "name": "Стальной меч", "emoji": "🔱", "type": "weapon", "rarity": "rare", "price": 1500, "damage": 30, "description": "Закалённая сталь"},
+    {"id": 4, "name": "Рунный меч", "emoji": "⚔️", "type": "weapon", "rarity": "epic", "price": 5000, "damage": 55, "description": "Меч с магическими рунами"},
+    {"id": 5, "name": "Клинок судьбы", "emoji": "🌟", "type": "weapon", "rarity": "legendary", "price": 20000, "damage": 100, "description": "Легендарное оружие героев"},
+    {"id": 6, "name": "Клинок хаоса", "emoji": "💫", "type": "weapon", "rarity": "mythic", "price": 100000, "damage": 200, "description": "Мифический клинок из другого измерения"},
+
+    {"id": 7, "name": "Кожаная броня", "emoji": "🧥", "type": "armor", "rarity": "common", "price": 200, "defense": 5, "description": "Простая кожаная броня"},
+    {"id": 8, "name": "Кольчуга", "emoji": "🛡️", "type": "armor", "rarity": "uncommon", "price": 700, "defense": 15, "description": "Крепкая кольчужная броня"},
+    {"id": 9, "name": "Стальной доспех", "emoji": "⚙️", "type": "armor", "rarity": "rare", "price": 2000, "defense": 30, "description": "Тяжёлый стальной доспех"},
+    {"id": 10, "name": "Доспех дракона", "emoji": "🐉", "type": "armor", "rarity": "epic", "price": 8000, "defense": 60, "description": "Сделан из чешуи дракона"},
+    {"id": 11, "name": "Небесные латы", "emoji": "✨", "type": "armor", "rarity": "legendary", "price": 30000, "defense": 110, "description": "Благословлённые небесами"},
+    {"id": 12, "name": "Броня вечности", "emoji": "💎", "type": "armor", "rarity": "mythic", "price": 150000, "defense": 250, "description": "Защита от любого урона"},
+
+    {"id": 13, "name": "Малое зелье HP", "emoji": "🧪", "type": "consumable", "rarity": "common", "price": 50, "heal": 30, "description": "Восстанавливает 30 HP"},
+    {"id": 14, "name": "Среднее зелье HP", "emoji": "🫙", "type": "consumable", "rarity": "uncommon", "price": 200, "heal": 80, "description": "Восстанавливает 80 HP"},
+    {"id": 15, "name": "Большое зелье HP", "emoji": "💊", "type": "consumable", "rarity": "rare", "price": 600, "heal": 200, "description": "Восстанавливает 200 HP"},
+    {"id": 16, "name": "Зелье силы", "emoji": "💪", "type": "consumable", "rarity": "epic", "price": 2000, "effect": "strength_boost", "description": "Удваивает урон на 1 бой"},
+    {"id": 17, "name": "Эликсир бессмертия", "emoji": "⚗️", "type": "consumable", "rarity": "legendary", "price": 10000, "effect": "immortal", "description": "Воскрешает при смерти"},
+
+    {"id": 18, "name": "Семена пшеницы", "emoji": "🌾", "type": "farm_seed", "rarity": "common", "price": 30, "grow_time": 3600, "yield": 3, "yield_item": "Пшеница"},
+    {"id": 19, "name": "Семена моркови", "emoji": "🥕", "type": "farm_seed", "rarity": "common", "price": 50, "grow_time": 7200, "yield": 4, "yield_item": "Морковь"},
+    {"id": 20, "name": "Семена картофеля", "emoji": "🥔", "type": "farm_seed", "rarity": "uncommon", "price": 100, "grow_time": 10800, "yield": 6, "yield_item": "Картофель"},
+    {"id": 21, "name": "Магические семена", "emoji": "🌸", "type": "farm_seed", "rarity": "rare", "price": 500, "grow_time": 21600, "yield": 10, "yield_item": "Магический цветок"},
+
+    {"id": 22, "name": "Кирка (Каменная)", "emoji": "⛏️", "type": "mining_tool", "rarity": "common", "price": 300, "efficiency": 1, "description": "Базовая горная кирка"},
+    {"id": 23, "name": "Кирка (Железная)", "emoji": "🪛", "type": "mining_tool", "rarity": "uncommon", "price": 1000, "efficiency": 2, "description": "Прочная железная кирка"},
+    {"id": 24, "name": "Кирка (Золотая)", "emoji": "✨", "type": "mining_tool", "rarity": "rare", "price": 3000, "efficiency": 3, "description": "Позолоченная кирка"},
+    {"id": 25, "name": "Кирка (Алмазная)", "emoji": "💎", "type": "mining_tool", "rarity": "epic", "price": 10000, "efficiency": 5, "description": "Кирка с алмазным наконечником"},
+
+    {"id": 26, "name": "Уголь", "emoji": "🪨", "type": "resource", "rarity": "common", "price": 20, "description": "Обычный уголь"},
+    {"id": 27, "name": "Железная руда", "emoji": "⚙️", "type": "resource", "rarity": "common", "price": 40, "description": "Сырая железная руда"},
+    {"id": 28, "name": "Золотая руда", "emoji": "🥇", "type": "resource", "rarity": "uncommon", "price": 150, "description": "Блестящая золотая руда"},
+    {"id": 29, "name": "Изумруд", "emoji": "💚", "type": "resource", "rarity": "rare", "price": 500, "description": "Драгоценный изумруд"},
+    {"id": 30, "name": "Рубин", "emoji": "❤️", "type": "resource", "rarity": "epic", "price": 2000, "description": "Редкий рубин"},
+    {"id": 31, "name": "Алмаз", "emoji": "💎", "type": "resource", "rarity": "legendary", "price": 8000, "description": "Чистейший алмаз"},
+
+    {"id": 32, "name": "Ключ от обычного кейса", "emoji": "🗝️", "type": "key", "rarity": "common", "price": 200, "case_id": 1, "description": "Открывает обычный кейс"},
+    {"id": 33, "name": "Ключ от редкого кейса", "emoji": "🔑", "type": "key", "rarity": "rare", "price": 800, "case_id": 2, "description": "Открывает редкий кейс"},
+    {"id": 34, "name": "Ключ от эпического кейса", "emoji": "✨", "type": "key", "rarity": "epic", "price": 2500, "case_id": 3, "description": "Открывает эпический кейс"},
+    {"id": 35, "name": "Ключ от легендарного кейса", "emoji": "👑", "type": "key", "rarity": "legendary", "price": 10000, "case_id": 4, "description": "Открывает легендарный кейс"},
+
+    {"id": 36, "name": "Кольцо помолвки", "emoji": "💍", "type": "special", "rarity": "epic", "price": 5000, "description": "Предложи руку и сердце"},
+    {"id": 37, "name": "Амулет дружбы", "emoji": "🤝", "type": "special", "rarity": "rare", "price": 1000, "description": "Символ крепкой дружбы"},
+    {"id": 38, "name": "Знак клана", "emoji": "🏴", "type": "special", "rarity": "uncommon", "price": 500, "description": "Символ принадлежности к клану"},
+    {"id": 39, "name": "VIP-карта (Серебро)", "emoji": "🥈", "type": "vip", "rarity": "rare", "price": 5000, "vip_level": "silver", "duration_days": 30, "description": "VIP Серебро на 30 дней"},
+    {"id": 40, "name": "VIP-карта (Золото)", "emoji": "🥇", "type": "vip", "rarity": "epic", "price": 15000, "vip_level": "gold", "duration_days": 30, "description": "VIP Золото на 30 дней"},
+    {"id": 41, "name": "VIP-карта (Платина)", "emoji": "💎", "type": "vip", "rarity": "legendary", "price": 50000, "vip_level": "platinum", "duration_days": 30, "description": "VIP Платина на 30 дней"},
+
+    {"id": 42, "name": "Пшеница", "emoji": "🌾", "type": "farm_product", "rarity": "common", "price": 25, "description": "Свежесобранная пшеница"},
+    {"id": 43, "name": "Морковь", "emoji": "🥕", "type": "farm_product", "rarity": "common", "price": 45, "description": "Сочная морковь"},
+    {"id": 44, "name": "Картофель", "emoji": "🥔", "type": "farm_product", "rarity": "uncommon", "price": 90, "description": "Крупный картофель"},
+    {"id": 45, "name": "Магический цветок", "emoji": "🌸", "type": "farm_product", "rarity": "rare", "price": 450, "description": "Цветок с магическими свойствами"},
+
+    {"id": 46, "name": "Свиток телепортации", "emoji": "📜", "type": "consumable", "rarity": "uncommon", "price": 300, "description": "Телепортирует в любую точку"},
+    {"id": 47, "name": "Эликсир опыта", "emoji": "💡", "type": "consumable", "rarity": "rare", "price": 1500, "xp_boost": 500, "description": "Даёт 500 очков опыта"},
+    {"id": 48, "name": "Монета удачи", "emoji": "🍀", "type": "consumable", "rarity": "epic", "price": 3000, "description": "Удваивает дроп на следующие 5 действий"},
+    {"id": 49, "name": "Сундук сокровищ", "emoji": "🧰", "type": "consumable", "rarity": "legendary", "price": 25000, "description": "Содержит случайные ресурсы"},
+    {"id": 50, "name": "Артефакт богов", "emoji": "🌀", "type": "special", "rarity": "mythic", "price": 500000, "description": "Реликвия неизведанной силы"}
+  ]
+}

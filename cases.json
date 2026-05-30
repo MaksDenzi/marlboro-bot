@@ -1,0 +1,100 @@
+{
+  "cases": [
+    {
+      "id": 1,
+      "name": "Обычный кейс",
+      "emoji": "📦",
+      "price": 500,
+      "description": "Содержит обычные и необычные предметы",
+      "key_id": 32,
+      "rewards": [
+        {"type": "item", "item_id": 1,  "chance": 25.0, "amount": 1},
+        {"type": "item", "item_id": 7,  "chance": 20.0, "amount": 1},
+        {"type": "item", "item_id": 13, "chance": 20.0, "amount": 2},
+        {"type": "item", "item_id": 26, "chance": 15.0, "amount": 3},
+        {"type": "item", "item_id": 27, "chance": 10.0, "amount": 2},
+        {"type": "coins", "amount": 200,  "chance": 5.0},
+        {"type": "coins", "amount": 500,  "chance": 3.0},
+        {"type": "item", "item_id": 2,  "chance": 2.0,  "amount": 1}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Редкий кейс",
+      "emoji": "📫",
+      "price": 1500,
+      "description": "Содержит редкие и эпические предметы",
+      "key_id": 33,
+      "rewards": [
+        {"type": "item", "item_id": 2,  "chance": 20.0, "amount": 1},
+        {"type": "item", "item_id": 3,  "chance": 15.0, "amount": 1},
+        {"type": "item", "item_id": 8,  "chance": 15.0, "amount": 1},
+        {"type": "item", "item_id": 14, "chance": 15.0, "amount": 2},
+        {"type": "item", "item_id": 28, "chance": 12.0, "amount": 2},
+        {"type": "item", "item_id": 29, "chance": 8.0,  "amount": 1},
+        {"type": "coins", "amount": 1000, "chance": 8.0},
+        {"type": "item", "item_id": 47, "chance": 4.0,  "amount": 1},
+        {"type": "item", "item_id": 9,  "chance": 3.0,  "amount": 1}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Эпический кейс",
+      "emoji": "💼",
+      "price": 5000,
+      "description": "Содержит эпические и легендарные предметы",
+      "key_id": 34,
+      "rewards": [
+        {"type": "item", "item_id": 4,  "chance": 18.0, "amount": 1},
+        {"type": "item", "item_id": 10, "chance": 15.0, "amount": 1},
+        {"type": "item", "item_id": 16, "chance": 12.0, "amount": 1},
+        {"type": "item", "item_id": 30, "chance": 12.0, "amount": 1},
+        {"type": "item", "item_id": 24, "chance": 10.0, "amount": 1},
+        {"type": "coins", "amount": 5000, "chance": 10.0},
+        {"type": "item", "item_id": 15, "chance": 8.0,  "amount": 3},
+        {"type": "item", "item_id": 48, "chance": 5.0,  "amount": 1},
+        {"type": "item", "item_id": 5,  "chance": 7.0,  "amount": 1},
+        {"type": "item", "item_id": 39, "chance": 3.0,  "amount": 1}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Легендарный кейс",
+      "emoji": "🌟",
+      "price": 15000,
+      "description": "Содержит легендарные и мифические предметы",
+      "key_id": 35,
+      "rewards": [
+        {"type": "item", "item_id": 5,  "chance": 20.0, "amount": 1},
+        {"type": "item", "item_id": 11, "chance": 15.0, "amount": 1},
+        {"type": "item", "item_id": 17, "chance": 12.0, "amount": 1},
+        {"type": "item", "item_id": 31, "chance": 10.0, "amount": 1},
+        {"type": "item", "item_id": 25, "chance": 8.0,  "amount": 1},
+        {"type": "coins", "amount": 20000, "chance": 10.0},
+        {"type": "item", "item_id": 40, "chance": 8.0,  "amount": 1},
+        {"type": "item", "item_id": 49, "chance": 7.0,  "amount": 1},
+        {"type": "item", "item_id": 6,  "chance": 5.0,  "amount": 1},
+        {"type": "item", "item_id": 41, "chance": 3.0,  "amount": 1},
+        {"type": "item", "item_id": 50, "chance": 2.0,  "amount": 1}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Праздничный кейс",
+      "emoji": "🎁",
+      "price": 3000,
+      "description": "Специальный праздничный кейс с бонусами",
+      "key_id": null,
+      "rewards": [
+        {"type": "item", "item_id": 3,  "chance": 20.0, "amount": 1},
+        {"type": "item", "item_id": 15, "chance": 20.0, "amount": 3},
+        {"type": "item", "item_id": 47, "chance": 15.0, "amount": 1},
+        {"type": "item", "item_id": 48, "chance": 10.0, "amount": 1},
+        {"type": "coins", "amount": 3000, "chance": 15.0},
+        {"type": "coins", "amount": 7000, "chance": 10.0},
+        {"type": "item", "item_id": 36, "chance": 5.0,  "amount": 1},
+        {"type": "item", "item_id": 4,  "chance": 5.0,  "amount": 1}
+      ]
+    }
+  ]
+}
