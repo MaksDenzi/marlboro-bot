@@ -20,7 +20,7 @@ from config import BOT_TOKEN, OWNER_ID, LOG_GROUP_ID, ENERGY_REGEN_PER_HOUR, MAX
 from db import Database
 #from utils.logger import setup_logging, setup_telegram_logging, tg_log
 #from middlewares import AntiSpamMiddleware, BanCheckMiddleware, RegisterMiddleware
-from handlers import get_all_routers
+#from handlers import get_all_routers
 
 logger = logging.getLogger(__name__)
 
@@ -272,7 +272,7 @@ async def main() -> None:
     dp.callback_query.middleware(AntiSpamMiddleware())
 
     # Register all routers
-    for router in get_all_routers():
+  #  for router in get_all_routers():
         dp.include_router(router)
 
     # Scheduler
