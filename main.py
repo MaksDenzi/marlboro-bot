@@ -17,7 +17,7 @@ from aiogram.types import BotCommand, BotCommandScopeDefault, BotCommandScopeCha
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 from config import BOT_TOKEN, OWNER_ID, LOG_GROUP_ID, ENERGY_REGEN_PER_HOUR, MAX_ENERGY
-from database.db import Database
+from db import Database
 from utils.logger import setup_logging, setup_telegram_logging, tg_log
 from middlewares import AntiSpamMiddleware, BanCheckMiddleware, RegisterMiddleware
 from handlers import get_all_routers
