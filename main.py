@@ -100,7 +100,7 @@ ADMIN_COMMANDS = BOT_COMMANDS + TESTER_EXTRA_COMMANDS + [
 async def task_energy_regen() -> None:
     """Regenerate energy for all players every hour."""
     try:
-        from database.db import get_db
+        from db import get_db
         db = await get_db()
         await db.execute(
             f"UPDATE users SET energy = MIN({MAX_ENERGY}, energy + {ENERGY_REGEN_PER_HOUR})"
@@ -155,7 +155,7 @@ async def task_expire_auctions(bot: Bot) -> None:
 async def task_expire_vip() -> None:
     """Remove expired VIP statuses."""
     try:
-        from database.db import get_db
+        from db import get_db
         db = await get_db()
         now = int(time.time())
         await db.execute(
